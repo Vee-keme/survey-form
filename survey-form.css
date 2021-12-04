@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: rgba(0, 255, 157, 0.7);  
+    margin: 0;
+}
+h1{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px rgba(0 , 0, 0, 0.6);
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 6px;
+
+}
+.form-control input, .form-control select, .form-control textarea{
+    border: 1px solid rgba(0 , 0, 0, 0.3) ;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+.form-control input[type="radio"], .form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+button{
+    background: rgba(0, 255, 157, 0.7); 
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgb(233, 164, 15);
+    cursor: pointer;
+}
+.form-control input:hover, .form-control textarea:hover{
+    background-color: rgba(6, 4, 119, 0.1);
+}
+.form-control input[type="radio"]:hover{
+    cursor: pointer;
+}
